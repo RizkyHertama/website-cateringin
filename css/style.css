@@ -1,0 +1,369 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  padding: 12px 0px 12px 0px;
+}
+
+/* Navbar start */
+.nav-link.active {
+  font-weight: 500;
+}
+
+.button-secondary {
+  color: white;
+  font-weight: 500;
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  background-color: #5cac0e;
+}
+
+#nav-item-link {
+  color: black;
+  font-size: 16px;
+}
+
+#nav-item-link:hover {
+  color: #5cac0e;
+}
+
+/* Navbar End */
+
+/* isi awal start */
+.wrapper {
+  padding: 32px 32px 48px 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrapper-one {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper-two {
+  width: 50%;
+}
+
+#wrapper-one-heading {
+  color: rgba(92, 172, 14, 1);
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+#wrapper-one-text {
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.wrapper-one-order-button-order-button {
+  width: 192px;
+  height: 48px;
+  background: #5cac0e;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#wrapper-one-order-button-order-button-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  margin-bottom: 0px;
+  line-height: 48px;
+}
+
+.order-button-link {
+  text-decoration: none;
+}
+
+.wrapper-two {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+}
+
+.wrapper-two-food-image-one img {
+  width: 500px;
+  height: 500px;
+}
+/* isi awal end */
+
+/* Layanan start */
+#layanan {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #5cac0e;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  background-color: #ddffbc;
+}
+
+.card-layanan h5 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Layanan end */
+
+/* footer start */
+
+.footer {
+  margin-top: 48px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  height: 92px;
+  background: #5cac0e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-social-media {
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#footer-social-media-instagram,
+#footer-social-media-facebook {
+  margin-right: 16px;
+}
+
+#footer-copyright-text {
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 16px;
+  text-align: center;
+}
+/* footer end */
+
+/* Responsive start */
+
+@media screen and (max-width: 922px) {
+  /* isi awal start */
+
+  .wrapper {
+    width: 100%;
+  }
+
+  #wrapper-one-heading {
+    color: rgba(92, 172, 14, 1);
+    font-size: 34px;
+  }
+
+  #wrapper-one-text {
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .wrapper-one-order-button-order-button {
+    width: 142px;
+    height: 38px;
+    background: #5cac0e;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  #wrapper-one-order-button-order-button-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+  }
+
+  .wrapper-two-food-image-one img {
+    margin-top: 20%;
+
+    width: 325px;
+    height: 325px;
+  }
+  /* isi awal end */
+}
+
+
+
+
+@media screen and (min-width: 599px) and (max-width: 983px) {
+  /* Layanan start */
+
+  .card-layanan {
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    background-color: #ddffbc;
+  }
+  /* Layanan end */
+}
+
+@media screen and (max-width: 576px) {
+  /* isi awal start */
+
+  .wrapper {
+    margin-right: 10%;
+  }
+
+  #wrapper-one-heading {
+    color: rgba(92, 172, 14, 1);
+    font-size: 34px;
+  }
+
+  #wrapper-one-text {
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .wrapper-one-order-button-order-button {
+    width: 142px;
+    height: 38px;
+    background: #5cac0e;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  #wrapper-one-order-button-order-button-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+  }
+
+  .wrapper-two-food-image-one img {
+    margin-top: 50%;
+
+    width: 235px;
+    height: 235px;
+  }
+  /* isi awal end */
+
+  /* Layanan start */
+
+  h2 {
+    font-size: 34px;
+    font-weight: 500;
+    color: #5cac0e;
+  }
+/* Layanan end */
+
+}
+
+
+/* Responsive end */
+
+/* button start */
+table {
+  width: 600px;
+}
+
+@media screen and (max-width: 700px){
+  table {
+      width: 90%;
+  }
+}
+table td {
+  padding: 5px;
+}
+td.label { width: 40%;}
+.input {
+  border: 1px solid #CCCCCC;
+  background-color: #dfdfdf;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+input.tbl-biru {
+  border: none;
+  background-color: #3f72af;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color:#FFFFFF;
+  cursor:pointer;
+  font-weight: bold;
+}
+input.tbl-biru:hover {
+  background-color: #fc5185;
+  text-decoration: none;
+}
+.error {
+  padding: 20px;
+  background-color: #f44336;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.sukses {
+  padding: 20px;
+  background-color: #2196F3;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.data-isian{
+  display: flex;
+  justify-content:center ;
+}
+
+.foot-index{
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 576px){
+  .foot-index{
+    margin-top: 30%;
+  }
+
+  .data-isian{
+    margin-top: 20%;
+    display: flex;
+    justify-content:center ;
+  }
+
+  .log-sign{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 500;
+    color: #5cac0e; 
+    }
+}
+
+.log-sign{
+margin-top: 7%;
+display: flex;
+justify-content: center;
+font-size: 48px;
+font-weight: 500;
+color: #5cac0e; 
+}
+
+.error ul { margin-left: 10px; }
+/* button end */
+
+
